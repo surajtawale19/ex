@@ -22,7 +22,8 @@ body{
 }
 .menu{
     background-color:black transparent;
-    text-align: center;
+	text-align: center;
+	position: fixed;
 }
 .menu ul{
     display: inline-flex;
@@ -46,11 +47,15 @@ body{
 }
 background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url('mount.jpg');
 
+.p{
+	display: flex;	
+}
+
 .para{
     width: 40%;
-    position: absolute;
+	height: max-content;
     top: 50%;
-    left: 60%;
+    left: 30%;
     transform: translate(-50%,50%);
 }
 
@@ -60,15 +65,20 @@ background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url('mount.
     font-family: arial;
 }
 
-.form
+form
 {   
-    width:30%;
-    display: flex;
-    flex-direction: column;
+	border: 1px solid whitesmoke;
+	top: 60%;
+	left: 60;
+	width:60%;
+	height: max-content;
+    
 }
 
 }
 .f1{
+	top: 60%;
+	left: 60%;
 	margin-top: 100px;
 	margin-left: 50px;
 	width: 320px;
