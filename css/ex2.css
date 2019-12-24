@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url('1.svg');
+    background-color:lightgrey;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.menu{
+    background-color: black;
+    display: fixed;
+    text-align: center;
+}
+
+.menu ul{
+    display: flex;
+    color: blanchedalmond;
+    list-style: none;
+}
+
+.menu ul li{
+    width: 120px;
+    margin: 9px;
+    padding: 10px;
+    
+}
+
+.menu ul ul{
+    display: none;
+}
+
+.menu ul li:hover > ul{
+    display:block;
+}
+
+.menu ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+.menu ul li:hover{
+    background: black;
+    border-radius: 3px ;
+}
+
+.p{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.para{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para h1{
+    font-size: 50px;
+}
+.para p{
+    opacity: 0.4;
+    color: white;  
+}
+
+.para a{
+    color: white;
+}
+
+.f1{
+    width: 320px;
+    height: 420px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 20px;
+    color: black;
+    transform: translate(-10%,-30%);
+}
+
+.f1 h1{
+    margin-bottom: 10px;
+}
+.f1 label{
+    color: black;
+    font-weight: bold;
+    margin:0;
+    padding: 0;
+}
+.f1 input[type="text"],input[type="password"]{
+    border: none;
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: thin;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.f1 input[type="submit"]{
+    border: none;
+    background-color: green;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.f1 input[type="submit"]:hover{
+    color: black;
+    background-color:lightgreen;
+}
+.f1 a{
+    margin-top: 5px;
+    text-decoration: none;
+}
